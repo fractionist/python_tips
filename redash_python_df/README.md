@@ -3,7 +3,7 @@
 When you want to juggle (join, etc.) the query results of Redash, SQL is always cumbersome due to its redandancy.
 Although we can use python in Redash by the python data source, it seems no build-in function to smoothly convert redash to python data frame and vice versa.
 
-I made a template based on @arikfr's PR idea here. 
+I made a template based on @arikfr's PR idea here. I just made a small fix.
 https://discuss.redash.io/t/converting-redash-query-results-to-pandas-dataframe-and-vice-versa/3015
 
 # side note
