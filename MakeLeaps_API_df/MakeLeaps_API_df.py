@@ -41,8 +41,6 @@ def load_df(kind):
             df = df.append(data)
     return df.reset_index()
  
-#import datetime
-#now = datetime.datetime.now().strftime('%Y%m%d_%H%M')    
 client_df = load_df("client").drop(["index"],axis=1)
 client_df.to_csv(f"ML_client.csv",index=False)
 document_df = load_df("document")
