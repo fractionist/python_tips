@@ -55,7 +55,7 @@ df = redash_to_df( get_query_result({query_id}) )
 
 ########################################
 
-############# YOUR CODES ###############
+# YOUR CODE HERE #
 result_df = 
 ########################################
 
